@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Navigation Script -->
+    <script src="script.js"></script>
+
+   
+	<!-- Default CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Bootstrap Overwrite CSS -->
+    <link rel="stylesheet" href="css/overwrite.css">
+
+  </head>
+  <body class="login">
+		<div id="app-nav">
+		<i class="fa-solid fa-arrow-left" onclick="goBack()"></i>
+    </div>
+    <div class="container">
+     <p class="page-title">Health Tech</p>
+     <p class="page-subtitle">Vamos começar</p>
+     <p class="section-description">Crie uma conta para continuar!</p>
+
+     <form class="login-form form">
+		<label for="email">E-mail</label>
+		<div class="input-group">
+			<span class="input-group-addon"><i class="fa-regular fa-envelope"></i></i></span>
+
+		  <input type="text" class="form-control" id="email">
+		</div>
+
+		<label for="email">Nome</label>
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+
+		  <input type="text" class="form-control" id="nome">
+		</div>
+
+		<label for="password">Senha</label>
+		<div class="input-group">
+			<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+		  <input type="password" class="form-control" id="password">
+		    <span class="input-group-addon"><i class="glyphicon glyphicon-eye-open"></i></span>
+
+		</div>
+     </form>
+
+      <button class="btn btn-primary center big" onclick="goTo('dashboard.html')">CADASTRAR <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+      <p class="links mt-30"> Já tem conta? <a href="#" onclick="goTo('login.html')">Entre</a></p>
+        <button class="btn btn-primary facebook center big" onclick="goTo('dashboard.html')"><i class="fa-brands fa-facebook"></i>Conectar com Facebook</button>
+
+    </div>
+  </body>
+</html>

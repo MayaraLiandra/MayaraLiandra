@@ -1,0 +1,32 @@
+.btn {
+    border-radius: 20px;
+}
+
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-image: -webkit-linear-gradient(top,#337ab7 0,#A95EFA 100%);
+    background-image: -o-linear-gradient(top,#337ab7 0,#A95EFA 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#A95EFA));
+    background-image: linear-gradient(to bottom,#A95EFA 0,#A95EFA 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A95EFA', endColorstr='#A95EFA', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #A95EFA;
+    background-position:  unset;
+    background-color: #A95EFA;
+    color: #fff;
+}
+
+
+
+.btn-primary.facebook, .btn-primary.facebook:hover, .btn-primary.facebook:active, .btn-primary.facebook:focus  {
+    background-image: -webkit-linear-gradient(top,#0002FC 0,#0002FC 100%);
+    background-image: -o-linear-gradient(top,#0002FC 0,#0002FC 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#0002FC),to(#0002FC));
+    background-image: linear-gradient(to bottom,#0002FC 0,#0002FC 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0002FC', endColorstr='#0002FC', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #0002FC;
+    background-position:  unset;
+}
